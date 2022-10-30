@@ -1,0 +1,60 @@
+.App {
+    display:flex;
+    min-height:100vh;
+    align-items:center;
+    justify-content: center;
+
+}
+.calculator {
+    width:100%;
+    box-sizing: content-box;
+    height:100%;
+    max-width:900px;
+    height:400px;
+    margin:100px auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow:0px 2px 64px;
+    
+    
+    
+}
+.display {
+    padding:16px;
+    height:100px;
+    text-align: right;
+    color:white;
+    background-color:black;
+    font-size:100px;
+
+}
+.display span {
+    font-size:20px;
+}
+button{
+    flex: 1 1 0%;
+    appearance: None;
+    border:None;
+    color:white;
+    outline:None;
+    border:None;
+    cursor:pointer;
+    font-size:37px;
+    background-color:black;
+}
+.operator{
+    display:flex; 
+    flex-wrap:wrap;
+}
+.operator button{
+    background-color:rgb(236, 20, 84);
+    flex:1 1 33.333%;
+    font-weight:700;
+}
+.digits {
+    display:flex;
+    flex-wrap :wrap;
+}
+.digits button{
+    flex:1 1 33.333%;
+}
